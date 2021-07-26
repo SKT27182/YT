@@ -7,6 +7,10 @@ body{
     margin: 0%;
 }
 
+.videos{
+    background-color: #F9F9F9;
+}
+
 .video-section{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -18,6 +22,26 @@ body{
 
 .video:first-child{
     border-top: none;
+    
+}
+
+.video-section-title{
+    grid-column:  1/-1;
+    margin: -0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+
+}
+
+.video-section-title-close{
+    border:none;
+    background: none;
+    padding: none;
+    font-size: 2rem;
+    color: #555;
+    cursor: pointer;
 }
 
 .video-container{
