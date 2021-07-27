@@ -7,6 +7,46 @@ body{
     margin: 0%;
 }
 
+.categories{
+    padding: 1rem 2rem;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #CCC;
+
+}
+
+.category-section{
+    display: flex;
+    overflow: hidden;
+   
+}
+
+.category{
+    margin-right: 1rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border-radius: 900px;
+    background-color: #E7E7E7;
+    padding:  0.5rem 1rem;
+    font-size: inherit;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.category:hover{
+    background-color: #DDD;
+}
+
+.category.active{
+    background-color: #606060;
+    color: white;
+    border-color: #EEE;
+}
+
+.category:last-child{
+    margin-right: 0%;
+}
+
+
 .videos{
     background-color: #F9F9F9;
 }
@@ -17,7 +57,7 @@ body{
     gap: 3rem 1rem;
     padding: 3rem 0;
     margin: 0 1.5rem;
-    border-top: 4px solid #CCC;
+    border-top: 2px solid #CCC;
 }
 
 .video:first-child{
@@ -74,10 +114,10 @@ body{
     background-color: #AAA;
 }
 
-.video-button-selection{
+.video-bottom-selection{
     display: flex;
     align-items: flex-start;
-    margin: 1rem;
+    margin-top: 1rem;
 }
 
 .channel-icon{
@@ -104,6 +144,7 @@ body{
 .video-channel-name{
     margin-bottom: 0.1rem;
     text-decoration: none;
+    transition: color 150ms;
 }
 
 .video-channel-name:hover{

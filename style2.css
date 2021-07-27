@@ -1,0 +1,168 @@
+*::before, ::after{
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body{
+    margin: 0%;
+}
+
+.divider{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    padding-top: 2%;
+}
+
+
+.video-details{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.title{
+    font-weight: bold;
+    font-size: 3vmin;
+}
+
+.video-metadata{
+    font-size: 1vw;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    
+}
+
+
+
+.views{
+    font-size: 0.75vw;
+}
+
+
+.icons{
+    display: flex;
+}
+
+.thumb-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(0 , 0 , 0 , 0.5 );
+    margin-left: 4px;
+}
+
+
+    
+
+.thumb{
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+}
+
+
+.discription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.channel-icon{
+    width: 10%;
+}
+
+.channel-icon-image{
+    border-radius: 70%;
+}
+
+.channel-name-subcriber{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.channel-name{
+    text-decoration: none;
+    color: black;
+}
+
+.channel-name-name{
+    font-weight: bold;
+}
+
+.content{
+    padding-top: 10px;
+}
+
+.subscriber-button{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.video-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.writing{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sidebar-channel-name,
+.sidebar-song-name,
+.sidebar-views{
+    text-decoration: none;
+}
+
+.sidebar-song-name{
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar-channel-name,
+.sidebar-views{
+    color: black;
+}
+
+
+.image{
+    background-color: gray;
+}
+
+
+
+
