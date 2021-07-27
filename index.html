@@ -1,544 +1,728 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>YouTube</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
-    <body>
+<body>
 
-        <div class="categories">
-            <section class="category-section">
-                <button class="category active">All</button>
-                <button class="category">Category 1</button>
-                <button class="category">Category 2</button>
-                <button class="category">Category 3</button>
-                <button class="category">Category 4</button>
-                <button class="category">Category 5</button>
-                <button class="category">Category 6</button>
-                <button class="category">Category 7</button>
-                <button class="category">Category 8</button>
-                <button class="category">Category 9</button>
-                
-            </section>
+    <header class="header">
+        <a href="#">
+            <img src="pics/logo.png" alt="Youtube Logo" class="youtube-logo">
+        </a>
+
+        <form class="search-bar">
+            <input class="search-input"type="search" placeholder="Search" aria-label="Search">
+            <button type="submit">
+                <img class="search-btn"src="pics/magnify.png" alt="">
+            </button>
+        </form>
+
+        <div class="menu-icons">
+            <a href="#">
+                <img src="pics/video-plus.png" alt="Upload Viideo">
+            </a>
+            <a href="#">
+                <img src="pics/apps.png" alt=" Apps">
+            </a>
+            <a href="#">
+                <img src="pics/bell.png" alt="Notification">
+            </a>
+            <a href="#">
+                <img class="menu-channel-icon"src="https://picsum.photos/36/36?gravity=center" alt="Your Channel">
+            </a>    
         </div>
-        <div class="videos">
-            <section class="video-section">
 
-<!-------------------------------------------------------- First Video ------------------------------------------------------------------------------->
+    </header>
 
-                <article class="video-container">
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">All</button>
+            <button class="category">Category 1</button>
+            <button class="category">Category 2</button>
+            <button class="category">Category 3</button>
+            <button class="category">Category 4</button>
+            <button class="category">Category 5</button>
+            <button class="category">Category 6</button>
+            <button class="category">Category 7</button>
+            <button class="category">Category 8</button>
+            <button class="category">Category 9</button>
 
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-                    </a>
+        </section>
+    </div>
+    <div class="videos">
+        <section class="video-section">
 
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
+            <!-------------------------------------------------------- First Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <div>
+                        <a href="#">
+                            <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon"
+                                class="channel-icon">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
                         </div>
                     </div>
+                </div>
 
-                </article>
+            </article>
 
-<!-------------------------------------------------------- Second Video ------------------------------------------------------------------------------->
+            <!-------------------------------------------------------- Second Video ------------------------------------------------------------------------------->
 
-                <article class="video-container">
+            <article class="video-container">
 
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
                     </a>
 
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        
 
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
                         </div>
                     </div>
+                </div>
 
-                </article>
+            </article>
 
-<!-------------------------------------------------------- Third Video ------------------------------------------------------------------------------->
+            <!-------------------------------------------------------- Third Video ------------------------------------------------------------------------------->
 
 
-                <article class="video-container">
+            <article class="video-container">
 
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
                     </a>
 
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        
 
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
-                        </div>
-                    </div>    
-                </article>
-
-<!-------------------------------------------------------- Fourth Video ------------------------------------------------------------------------------->
-
-                <article class="video-container">
-
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-                    </a>
-
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        
-
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
-                        </div>
-                    </div>    
-                </article>
-
-
-<!-------------------------------------------------------- Fifth Video ------------------------------------------------------------------------------->
-
-                <article class="video-container">
-
-    <a href="#" class="thumbnail" data-duration="12:29">
-        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-    </a>
-
-    <div class="video-bottom-section">
-            <a href="#">
-                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-            </a>
-        
-
-        <div class="video-details">
-            <a href="#" class="video-title">Video Title</a>
-            <a href="#" class="video-channel-name">Channel Name</a>
-            <div class="video-metadata">
-                <span>12K views</span>
-                •
-                <span>1 week ago</span>
-            </div>
-        </div>
-    </div>    
-                </article>
-
-
-<!-------------------------------------------------------- Sixth Video ------------------------------------------------------------------------------->
-
-                <article class="video-container">
-
-    <a href="#" class="thumbnail" data-duration="12:29">
-        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-    </a>
-
-    <div class="video-bottom-section">
-            <a href="#">
-                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-            </a>
-        
-
-        <div class="video-details">
-            <a href="#" class="video-title">Video Title</a>
-            <a href="#" class="video-channel-name">Channel Name</a>
-            <div class="video-metadata">
-                <span>12K views</span>
-                •
-                <span>1 week ago</span>
-            </div>
-        </div>
-    </div>    
-                </article>
-
-
-
-            </section>
-
-
-
-            <section class="video-section">
-
-                <h2 class="video-section-title">
-                    Special Section
-                    <button class="video-section-title-close">&times;</button>
-                </h2>
-
-                <!-------------------------------------------------------- First Video ------------------------------------------------------------------------------->
-                
-                                <article class="video-container">
-                
-                                    <a href="#" class="thumbnail" data-duration="12:29">
-                                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-                                    </a>
-                
-                                    <div class="video-bottom-section">
-                                            <a href="#">
-                                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                                            </a>
-                                        
-                
-                                        <div class="video-details">
-                                            <a href="#" class="video-title">Video Title</a>
-                                            <a href="#" class="video-channel-name">Channel Name</a>
-                                            <div class="video-metadata">
-                                                <span>12K views</span>
-                                                •
-                                                <span>1 week ago</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                
-                                </article>
-                
-                <!-------------------------------------------------------- Second Video ------------------------------------------------------------------------------->
-                
-                                <article class="video-container">
-                
-                                    <a href="#" class="thumbnail" data-duration="12:29">
-                                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-                                    </a>
-                
-                                    <div class="video-bottom-section">
-                                            <a href="#">
-                                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                                            </a>
-                                        
-                
-                                        <div class="video-details">
-                                            <a href="#" class="video-title">Video Title</a>
-                                            <a href="#" class="video-channel-name">Channel Name</a>
-                                            <div class="video-metadata">
-                                                <span>12K views</span>
-                                                •
-                                                <span>1 week ago</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                
-                                </article>
-                
-                <!-------------------------------------------------------- Third Video ------------------------------------------------------------------------------->
-                
-                
-                                <article class="video-container">
-                
-                                    <a href="#" class="thumbnail" data-duration="12:29">
-                                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-                                    </a>
-                
-                                    <div class="video-bottom-section">
-                                            <a href="#">
-                                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                                            </a>
-                                        
-                
-                                        <div class="video-details">
-                                            <a href="#" class="video-title">Video Title</a>
-                                            <a href="#" class="video-channel-name">Channel Name</a>
-                                            <div class="video-metadata">
-                                                <span>12K views</span>
-                                                •
-                                                <span>1 week ago</span>
-                                            </div>
-                                        </div>
-                                    </div>    
-                                </article>
-                
-                <!-------------------------------------------------------- Fourth Video ------------------------------------------------------------------------------->
-                
-                                <article class="video-container">
-                
-                                    <a href="#" class="thumbnail" data-duration="12:29">
-                                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-                                    </a>
-                
-                                    <div class="video-bottom-section">
-                                            <a href="#">
-                                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                                            </a>
-                                        
-                
-                                        <div class="video-details">
-                                            <a href="#" class="video-title">Video Title</a>
-                                            <a href="#" class="video-channel-name">Channel Name</a>
-                                            <div class="video-metadata">
-                                                <span>12K views</span>
-                                                •
-                                                <span>1 week ago</span>
-                                            </div>
-                                        </div>
-                                    </div>    
-                                </article>
-                
-                
-                <!-------------------------------------------------------- Fifth Video ------------------------------------------------------------------------------->
-                
-                                <article class="video-container">
-                
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-                    </a>
-                
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        
-                
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
-                        </div>
-                    </div>    
-                                </article>
-                
-                
-                <!-------------------------------------------------------- Sixth Video ------------------------------------------------------------------------------->
-                
-                                <article class="video-container">
-                
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-                    </a>
-                
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        
-                
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
-                        </div>
-                    </div>    
-                                </article>
-                
-                
-                
-                            </section>
-
-
-
-            <section class="video-section">
-
-<!-------------------------------------------------------- First Video ------------------------------------------------------------------------------->
-
-                <article class="video-container">
-
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-                    </a>
-
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        
-
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
                         </div>
                     </div>
+                </div>
+            </article>
 
-                </article>
+            <!-------------------------------------------------------- Fourth Video ------------------------------------------------------------------------------->
 
-<!-------------------------------------------------------- Second Video ------------------------------------------------------------------------------->
+            <article class="video-container">
 
-                <article class="video-container">
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
 
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
                     </a>
 
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        
 
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
                         </div>
                     </div>
-
-                </article>
-
-<!-------------------------------------------------------- Third Video ------------------------------------------------------------------------------->
+                </div>
+            </article>
 
 
-                <article class="video-container">
+            <!-------------------------------------------------------- Fifth Video ------------------------------------------------------------------------------->
 
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
                     </a>
 
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        
 
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
                         </div>
-                    </div>    
-                </article>
+                    </div>
+                </div>
+            </article>
 
-<!-------------------------------------------------------- Fourth Video ------------------------------------------------------------------------------->
 
-                <article class="video-container">
+            <!-------------------------------------------------------- Sixth Video ------------------------------------------------------------------------------->
 
-                    <a href="#" class="thumbnail" data-duration="12:29">
-                        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
                     </a>
 
-                    <div class="video-bottom-section">
-                            <a href="#">
-                                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-                            </a>
-                        
 
-                        <div class="video-details">
-                            <a href="#" class="video-title">Video Title</a>
-                            <a href="#" class="video-channel-name">Channel Name</a>
-                            <div class="video-metadata">
-                                <span>12K views</span>
-                                •
-                                <span>1 week ago</span>
-                            </div>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
                         </div>
-                    </div>    
-                </article>
+                    </div>
+                </div>
+            </article>
 
 
-<!-------------------------------------------------------- Fifth Video ------------------------------------------------------------------------------->
+            <!-------------------------------------------------------- Seventh Video ------------------------------------------------------------------------------->
 
-                <article class="video-container">
+            <article class="video-container">
 
-    <a href="#" class="thumbnail" data-duration="12:29">
-        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-    </a>
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
 
-    <div class="video-bottom-section">
-            <a href="#">
-                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-            </a>
-        
-
-        <div class="video-details">
-            <a href="#" class="video-title">Video Title</a>
-            <a href="#" class="video-channel-name">Channel Name</a>
-            <div class="video-metadata">
-                <span>12K views</span>
-                •
-                <span>1 week ago</span>
-            </div>
-        </div>
-    </div>    
-                </article>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
 
 
-<!-------------------------------------------------------- Sixth Video ------------------------------------------------------------------------------->
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-------------------------------------------------------- Eighth Video ------------------------------------------------------------------------------->
 
-                <article class="video-container">
+            <article class="video-container">
 
-    <a href="#" class="thumbnail" data-duration="12:29">
-        <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
-    </a>
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
 
-    <div class="video-bottom-section">
-            <a href="#">
-                <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
-            </a>
-        
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
 
-        <div class="video-details">
-            <a href="#" class="video-title">Video Title</a>
-            <a href="#" class="video-channel-name">Channel Name</a>
-            <div class="video-metadata">
-                <span>12K views</span>
-                •
-                <span>1 week ago</span>
-            </div>
-        </div>
-    </div>    
-                </article>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
 
 
 
-            </section>
+        </section>
 
-            
 
-        </div>
 
-    </body>
+        <section class="video-section">
+
+            <h2 class="video-section-title">
+                Special Section
+                <button class="video-section-title-close">&times;</button>
+            </h2>
+
+            <!-------------------------------------------------------- First Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-------------------------------------------------------- Second Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-------------------------------------------------------- Third Video ------------------------------------------------------------------------------->
+
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-------------------------------------------------------- Fourth Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-------------------------------------------------------- Fifth Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-------------------------------------------------------- Sixth Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-------------------------------------------------------- Seventh Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-------------------------------------------------------- Eighth Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+
+        </section>
+
+
+
+        <section class="video-section">
+
+            <!-------------------------------------------------------- First Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="#" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-------------------------------------------------------- Second Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="#" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-------------------------------------------------------- Third Video ------------------------------------------------------------------------------->
+
+
+            <article class="video-container">
+
+                <a href="#" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-------------------------------------------------------- Fourth Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="#" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-------------------------------------------------------- Fifth Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="#" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-------------------------------------------------------- Sixth Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="#" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-------------------------------------------------------- Seventh Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-------------------------------------------------------- Eighth Video ------------------------------------------------------------------------------->
+
+            <article class="video-container">
+
+                <a href="second.html" class="thumbnail" data-duration="12:29">
+                    <img src="https://picsum.photos/250/150?gravity=center" alt="thumbnail" class="thumbnail-image">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img src="https://picsum.photos/36/36?gravity=center" alt="channel-icon" class="channel-icon">
+                    </a>
+
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+
+        </section>
+
+
+
+    </div>
+
+</body>
 
 </html>
