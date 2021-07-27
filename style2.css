@@ -218,7 +218,7 @@ body{
     background-color: gray;
 }
 
-@media only screen and (max-width: 1210px) {
+@media only screen and (max-width: 1125px) {
     .sidebar {
       padding-top: 100px;
     }
@@ -226,7 +226,7 @@ body{
 
 
 
-  .header{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -239,7 +239,7 @@ body{
 
 .search-bar{
     display: flex;
-    flex-grow: 0.5;
+    flex-grow: 1;
     margin: 0 4rem ;
 }
 
